@@ -3,12 +3,12 @@ import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBds-LZC4Bjv6i7F7yf_OY_Ky_xrgXWd34",
-  authDomain: "react-js-blog-website-ad31e.firebaseapp.com",
-  projectId: "react-js-blog-website-ad31e",
-  storageBucket: "react-js-blog-website-ad31e.appspot.com",
-  messagingSenderId: "761149344455",
-  appId: "1:761149344455:web:90fa57ec88a97df6ea0ce2",
+  apiKey: process.env.FB_API_KEY,
+  authDomain: process.env.FB_AUTH_DOMAIN,
+  projectId: process.env.FB_PROJECT_ID,
+  storageBucket: process.env.FB_STORAGE_BUCKET,
+  messagingSenderId: process.env.FB_MESSAGING_SENDER_ID,
+  appId: process.env.FB_APP_ID,
 };
 
 
