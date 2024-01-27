@@ -3,7 +3,7 @@ node_modules/
 dist/
 .env
 /package-lock.json
-/firebase.jsx
+./src/common/firebase.jsx
 
 # Compiled Java class files
 *.class
